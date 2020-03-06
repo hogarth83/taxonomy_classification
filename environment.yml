@@ -13,6 +13,6 @@
   - pip:
     - ktrain
     - bs4
-    - dvc,
+    - dvc
     - pandarallel
     - wget
