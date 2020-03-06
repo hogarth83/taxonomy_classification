@@ -1,0 +1,18 @@
+# BASH: conda env create # source activate phd
+  name: taxonomy_classification
+  dependencies:
+  - python=3.7.5
+  - pytorch
+  - pytorch-gpu
+  - numpy
+  - pandas
+  - scipy
+  - numpy
+  - scikit-learn
+  - pip
+  - pip:
+    - ktrain
+    - bs4
+    - dvc,
+    - pandarallel
+    - wget
