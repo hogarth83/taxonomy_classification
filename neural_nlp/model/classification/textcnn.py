@@ -14,8 +14,8 @@ the License.
 
 import torch
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.classification.classifier import Classifier
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.classification.classifier import Classifier
 
 
 class TextCNN(Classifier):

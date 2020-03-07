@@ -13,9 +13,9 @@ the License.
 """
 
 
-from dataset.dataset import DatasetBase
-from dataset.dataset import InsertVocabMode
-from util import ModeType
+from neural_nlp.dataset.dataset import DatasetBase
+from neural_nlp.dataset.dataset import InsertVocabMode
+from neural_nlp.util import ModeType
 
 
 class ClassificationDataset(DatasetBase):

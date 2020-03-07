@@ -14,10 +14,10 @@ the License.
 
 import torch
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.classification.classifier import Classifier
-from model.model_util import InitType
-from model.model_util import init_tensor
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.classification.classifier import Classifier
+from neural_nlp.model.model_util import InitType
+from neural_nlp.model.model_util import init_tensor
 
 
 class RegionEmbedding(Classifier):

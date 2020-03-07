@@ -15,10 +15,10 @@ the License.
 
 import torch
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.classification.classifier import Classifier
-from model.rnn import RNN
-from model.rnn import RNNType
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.classification.classifier import Classifier
+from neural_nlp.model.rnn import RNN
+from neural_nlp.model.rnn import RNNType
 
 
 class DRNN(Classifier):

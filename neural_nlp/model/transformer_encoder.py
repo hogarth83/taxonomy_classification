@@ -23,7 +23,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from model.attention import MultiHeadAttention
+from neural_nlp.model.attention import MultiHeadAttention
 
 
 class PositionwiseFeedForward(nn.Module):

@@ -19,8 +19,8 @@ import torch
 
 import numpy as np
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.classification.classifier import Classifier
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.classification.classifier import Classifier
 
 
 class TextVDCNN(Classifier):

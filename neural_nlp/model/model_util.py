@@ -15,8 +15,8 @@ the License.
 import codecs as cs
 import torch
 
-from util import Type
-from model.optimizer import BertAdam
+from neural_nlp.util import Type
+from neural_nlp.model.optimizer import BertAdam
 
 class ActivationType(Type):
     """Standard names for activation

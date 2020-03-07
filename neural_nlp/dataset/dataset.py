@@ -17,9 +17,9 @@ import os
 
 import torch
 
-from util import Logger
-from util import ModeType
-from util import Type
+from neural_nlp.util import Logger
+from neural_nlp.util import ModeType
+from neural_nlp.util import Type
 
 
 class InsertVocabMode(Type):

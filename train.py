@@ -20,7 +20,7 @@ import time
 import torch
 from torch.utils.data import DataLoader
 
-import util
+from neural_nlp import util
 from neural_nlp.config import Config
 from neural_nlp.dataset.classification_dataset import ClassificationDataset
 from neural_nlp.dataset.collator import ClassificationCollator

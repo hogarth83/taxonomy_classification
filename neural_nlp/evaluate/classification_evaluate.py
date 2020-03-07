@@ -21,7 +21,7 @@ import os
 
 import numpy as np
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
 
 
 class ClassificationEvaluator(object):

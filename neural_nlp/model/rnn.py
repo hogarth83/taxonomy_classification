@@ -14,7 +14,7 @@ the License.
 
 import torch
 
-from util import Type
+from neural_nlp.util import Type
 
 
 class RNNType(Type):

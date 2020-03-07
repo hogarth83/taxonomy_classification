@@ -16,7 +16,7 @@ import math
 
 import torch
 
-from model.model_util import init_tensor
+from neural_nlp.model.model_util import init_tensor
 
 
 class SumAttention(torch.nn.Module):

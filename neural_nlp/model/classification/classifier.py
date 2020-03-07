@@ -14,12 +14,12 @@ the License.
 
 import torch
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.embedding import Embedding
-from model.embedding import EmbeddingProcessType
-from model.embedding import EmbeddingType
-from model.embedding import RegionEmbeddingLayer
-from model.model_util import ActivationType
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.embedding import Embedding
+from neural_nlp.model.embedding import EmbeddingProcessType
+from neural_nlp.model.embedding import EmbeddingType
+from neural_nlp.model.embedding import RegionEmbeddingLayer
+from neural_nlp.model.model_util import ActivationType
 
 
 class Classifier(torch.nn.Module):

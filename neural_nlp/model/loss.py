@@ -15,7 +15,7 @@ the License.
 import torch
 import torch.nn as nn
 
-from util import Type
+from neural_nlp.util import Type
 
 
 class LossType(Type):

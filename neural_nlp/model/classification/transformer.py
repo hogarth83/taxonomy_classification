@@ -15,10 +15,10 @@ the License.
 import torch
 import torch.nn as nn
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.classification.classifier import Classifier
-from model.transformer_encoder import EncoderLayer, StarEncoderLayer
-from model.embedding import PositionEmbedding
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.classification.classifier import Classifier
+from neural_nlp.model.transformer_encoder import EncoderLayer, StarEncoderLayer
+from neural_nlp.model.embedding import PositionEmbedding
 
 
 class Transformer(Classifier):

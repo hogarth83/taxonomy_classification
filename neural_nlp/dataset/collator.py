@@ -16,8 +16,8 @@ the License.
 
 import torch
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from util import Type
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.util import Type
 
 
 class Collator(object):

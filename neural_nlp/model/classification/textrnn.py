@@ -14,11 +14,11 @@ the License.
 
 import torch
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.classification.classifier import Classifier
-from model.layers import SumAttention
-from model.rnn import RNN
-from util import Type
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.classification.classifier import Classifier
+from neural_nlp.model.layers import SumAttention
+from neural_nlp.model.rnn import RNN
+from neural_nlp.util import Type
 
 
 class DocEmbeddingType(Type):

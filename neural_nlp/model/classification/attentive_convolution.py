@@ -14,12 +14,12 @@ the License.
 
 import torch
 
-from model.classification.classifier import Classifier
-from model.layers import AdditiveAttention2D
-from model.layers import DotProductAttention
-from model.layers import Highway
-from model.model_util import init_tensor
-from util import Type
+from neural_nlp.model.classification.classifier import Classifier
+from neural_nlp.model.layers import AdditiveAttention2D
+from neural_nlp.model.layers import DotProductAttention
+from neural_nlp.model.layers import Highway
+from neural_nlp.model.model_util import init_tensor
+from neural_nlp.util import Type
 
 
 class AttentiveConvNetType(Type):

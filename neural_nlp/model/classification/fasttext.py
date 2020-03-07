@@ -14,10 +14,10 @@ the License.
 
 import torch
 
-from dataset.classification_dataset import ClassificationDataset as cDataset
-from model.embedding import Embedding
-from model.embedding import EmbeddingProcessType
-from model.model_util import ActivationType
+from neural_nlp.dataset.classification_dataset import ClassificationDataset as cDataset
+from neural_nlp.model.embedding import Embedding
+from neural_nlp.model.embedding import EmbeddingProcessType
+from neural_nlp.model.model_util import ActivationType
 
 
 class FastText(torch.nn.Module):
