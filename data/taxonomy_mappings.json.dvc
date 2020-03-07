@@ -1,0 +1,7 @@
+md5: 8f8d0e7ca5923ce8d66b1855ace91e13
+outs:
+- md5: daebac254a0e227c14ec405f3d9c2cb6
+  path: taxonomy_mappings.json
+  cache: true
+  metric: false
+  persist: false

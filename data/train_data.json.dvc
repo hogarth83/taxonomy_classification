@@ -1,0 +1,7 @@
+md5: 6a48256ec35541a2c018adcfaa60b098
+outs:
+- md5: 7b918da5b26c8f97a53b837bfbc35b00
+  path: train_data.json
+  cache: true
+  metric: false
+  persist: false

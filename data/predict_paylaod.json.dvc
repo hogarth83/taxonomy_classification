@@ -1,0 +1,7 @@
+md5: 706db359158bbb4a2d79230cbeec61ee
+outs:
+- md5: 16eca4266a9de553fcb5fcd63cc11289
+  path: predict_paylaod.json
+  cache: true
+  metric: false
+  persist: false
