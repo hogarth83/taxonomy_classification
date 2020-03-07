@@ -1,0 +1,32 @@
+md5: da500ef5995ffaecd76ea54fc48c43e4
+cmd: python -m src.preprocess -o feature -r data/train_data.json -t train
+wdir: ..
+deps:
+- md5: 7b918da5b26c8f97a53b837bfbc35b00
+  path: data/train_data.json
+outs:
+- md5: c74ea5cd1bd05982787f464f1d07f3ee
+  path: feature/train_feature.json
+  cache: true
+  metric: false
+  persist: false
+- md5: 47cea5eef3407526bfb053b975483f81
+  path: feature/test_feature.json
+  cache: true
+  metric: false
+  persist: false
+- md5: 05dc509d0903f2f12a6c5f62d6672b8e
+  path: feature/dev_feature.json
+  cache: true
+  metric: false
+  persist: false
+- md5: 1fef87c1d911b8ec54081f5729e910f4
+  path: feature/news.taxonomy
+  cache: true
+  metric: false
+  persist: false
+- md5: 6e466988039400529dbb51c70140944f
+  path: data/modified_taxonomy.json
+  cache: true
+  metric: false
+  persist: false
