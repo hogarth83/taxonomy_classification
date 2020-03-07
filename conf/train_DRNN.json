@@ -6,7 +6,7 @@
     "hierar_penalty": 0.000001
   },
   "device": "cuda",
-  "model_name": "Transformer",
+  "model_name": "DRNN",
   "checkpoint_dir": "neural_nlp/checkpoint_dir",
   "model_dir": "neural_nlp/trained_model",
   "data": {
@@ -110,7 +110,7 @@
     "batch_size": 1024,
     "is_flat": true,
     "top_k": 10,
-    "model_dir": "neural_nlp/checkpoint_dir/Transformer_best"
+    "model_dir": "neural_nlp/checkpoint_dir/DRNN_best"
   },
   "TextVDCNN": {
     "vdcnn_depth": 9,
