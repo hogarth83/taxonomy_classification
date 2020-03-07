@@ -25,6 +25,7 @@ if [[ $ENVS != *"$input_variable"* ]]; then
     - bs4
     - dvc
     - pandarallel
+    - flask
     - wget">environment.yml
 
 

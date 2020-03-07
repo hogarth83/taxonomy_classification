@@ -15,4 +15,5 @@
     - bs4
     - dvc
     - pandarallel
+    - flask
     - wget
