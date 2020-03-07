@@ -22,22 +22,22 @@ import json
 import torch
 from torch.utils.data import DataLoader
 
-from config import Config
-from dataset.classification_dataset import ClassificationDataset
-from dataset.collator import ClassificationCollator
-from dataset.collator import ClassificationType
-from dataset.collator import FastTextCollator
-from model.classification.drnn import DRNN
-from model.classification.fasttext import FastText
-from model.classification.textcnn import TextCNN
-from model.classification.textvdcnn import TextVDCNN
-from model.classification.textrnn import TextRNN
-from model.classification.textrcnn import TextRCNN
-from model.classification.transformer import Transformer
-from model.classification.dpcnn import DPCNN
-from model.classification.attentive_convolution import AttentiveConvNet
-from model.classification.region_embedding import RegionEmbedding
-from model.model_util import get_optimizer, get_hierar_relations
+from neural_nlp.config import Config
+from neural_nlp.dataset.classification_dataset import ClassificationDataset
+from neural_nlp.dataset.collator import ClassificationCollator
+from neural_nlp.dataset.collator import ClassificationType
+from neural_nlp.dataset.collator import FastTextCollator
+from neural_nlp.model.classification.drnn import DRNN
+from neural_nlp.model.classification.fasttext import FastText
+from neural_nlp.model.classification.textcnn import TextCNN
+from neural_nlp.model.classification.textvdcnn import TextVDCNN
+from neural_nlp.model.classification.textrnn import TextRNN
+from neural_nlp.model.classification.textrcnn import TextRCNN
+from neural_nlp.model.classification.transformer import Transformer
+from neural_nlp.model.classification.dpcnn import DPCNN
+from neural_nlp.model.classification.attentive_convolution import AttentiveConvNet
+from neural_nlp.model.classification.region_embedding import RegionEmbedding
+from neural_nlp.model.model_util import get_optimizer, get_hierar_relations
 
 ClassificationDataset, ClassificationCollator, FastTextCollator,FastText, TextCNN, TextRNN, TextRCNN, DRNN, TextVDCNN, Transformer, DPCNN, AttentiveConvNet, RegionEmbedding
 
